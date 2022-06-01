@@ -14,3 +14,10 @@ eureka:
     service-url:
       # 将两个Eureka的地址都加入，这样就算有一个Eureka挂掉，也能完成注册
       defaultZone: http://eureka01:8801/eureka, http://eureka02:8802/eureka
+
+#配置Actuator添加暴露
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

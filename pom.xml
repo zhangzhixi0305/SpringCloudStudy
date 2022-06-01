@@ -12,6 +12,7 @@
         <module>borrow-service</module>
         <module>commons</module>
         <module>eureka-server</module>
+        <module>hystrix-dashboard</module>
     </modules>
     <name>SpringCloudStudy</name>
     <description>SpringCloudStudy</description>
@@ -33,6 +34,12 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+
+        <!--SpringBoot的小插件，监控功能-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
         <dependency>

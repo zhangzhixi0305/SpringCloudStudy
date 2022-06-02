@@ -3,11 +3,12 @@ server:
 spring:
   application:
     name: bookerservice
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springcloudstudy?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-    username: root
-    password: zhixi158
+#    讲这些配置放到远端(本地git)
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/springcloudstudy?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#    username: root
+#    password: zhixi158
 
 eureka:
   client:

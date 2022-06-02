@@ -8,7 +8,11 @@ spring:
       server:
         git:
           # 这里填写的是本地仓库地址，远程仓库直接填写远程仓库地址 http://git...
-          uri: https://github.com/zhangzhixi0305/SpringCloudStudy/tree/master/config-server
+          uri: https://github.com/zhangzhixi0305/SpringCloudStudy.git
+          # 读取的目录
+          search-paths:
+            - config-repo
+          skip-ssl-validation: true
           # 默认分支设定为你自己本地或是远程分支的名称
           default-label: master
 eureka:

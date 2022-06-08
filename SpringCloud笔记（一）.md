@@ -1,6 +1,7 @@
 ![image-20220317173734208](https://tva1.sinaimg.cn/large/e6c9d24ely1h0d0lfurfij21o40d275h.jpg)
-原代码地址：三个简单的微服务
-蓝奏云下载地址：https://wwd.lanzouq.com/iWYKr063ct3e
+原代码地址：三个简单的微服务组成，蓝奏云下载地址：https://wwd.lanzouq.com/iWYKr063ct3e  
+注意一点的是：使用此压缩包的微服务，需要在父项目的pom文件中将版本修改为2.6.3  
+<spring-boot.version>2.6.3</spring-boot.version>
 
 # 微服务基础
 
